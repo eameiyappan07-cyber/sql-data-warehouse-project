@@ -171,7 +171,7 @@ AS
 					  TRUNCATE TABLE bronze.erp_PX_CAT_G1V2;
 					  PRINT '************6th load Truncate is done; 6th load Load started**************';
 					  BULK INSERT  bronze.erp_PX_CAT_G1V2
-					  FROM 'C:\Users\EAM\OneDrive\Desktop\sql-data-warehouse-project\datasets\source_erp\LOC_A101.csv'
+					  FROM 'C:\Users\EAM\OneDrive\Desktop\sql-data-warehouse-project\datasets\source_erp\PX_CAT_G1V2'
 					  WITH
 					  (
 					  FIRSTROW = 2,
